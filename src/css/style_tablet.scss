@@ -1,0 +1,76 @@
+﻿@import "zero";
+@import "fonts";
+@import "vars";
+@import "header_tablet";
+@import "main_tablet";
+@import "footer_tablet";
+
+
+
+body {
+	background: #fff;
+	color: $color_text;
+	font-family: $font_Roboto;
+	
+	
+	a {
+	  text-decoration: none;
+	  color: white;
+	
+	  &:hover {color: $color_blue;}
+	  
+	}
+	
+	
+	section {
+		position: relative;
+		overflow: hidden;
+	}
+	
+	
+	
+	h1 {
+		font-size: $font_size_title;
+		color: #fff;
+		text-transform: uppercase;
+		line-height: 1.2;
+	}
+
+	
+	
+	h2 {
+		margin: 98px 0 35px;
+		text-align: center;
+		color: $color_text;
+		font-size: $font_size_big - 2px;
+	}
+	
+	h3 {
+		margin: 15px 0;
+		text-align: left;
+		color: $color_white;
+		font-size: $font_size_big;
+		line-height: 1.2;
+	}
+	
+	h4 {
+		margin: 20px 0 12px;
+		text-align: center;
+		color: $color_text;
+		font-size: $font_size_small;
+	
+	}
+	
+	h5 {
+		
+		font-family: $font_MonsBold;
+		color: $color_text;
+		font-size: $font_size_small;
+	
+	}
+	
+	
+	
+	
+}
+

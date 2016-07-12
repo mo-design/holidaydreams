@@ -1,0 +1,16 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "Maksymova Olga Exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "$OlgaMaximova <$maximova.olga@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

@@ -1,0 +1,94 @@
+footer {
+	
+	margin-top: 65px;
+	width: 100%;
+	border-top: 4px solid $color_mark;
+	
+	
+	
+	
+	.footer__wrapper {
+		
+		width: $wrapper_desktop;	
+		margin: 0 auto;
+		padding-top: 40px;
+	
+	
+		.footer__logo {
+	
+			float: left;
+			font-family: $font_MonsBold;
+			font-size: $font_size_med -2px; 
+			color: $color_mark;
+			text-transform: uppercase;
+			letter-spacing: 0.04em;
+		}
+	
+		.footer__company {
+			float: left;
+			margin: 0 92px 0 99px;
+
+		}
+	
+		.footer__menu {
+			list-style: none;
+			margin: 28px 0 20px;
+
+			li a{
+				display: block;
+				height: 24px;
+				text-decoration: none;
+				font-family: $font_Roboto;
+				font-size: $font_size_small;
+				color: $color_text;
+				
+				&:hover {color: $color_mark;}	
+			}
+		}
+		
+		h5 {
+		display: inline-block;
+		float: left;
+		
+		}
+		
+		
+		.design {	
+			width: 116px;
+			float: left;
+			padding-left: 363px;
+		
+			p {
+				text-align: right;
+				text-transform: uppercase;
+				letter-spacing: 0.07em;
+				font-family:$font_MonsBold;
+				font-size: $font_size_xxs;
+				color: $color_gray;
+			}
+		
+		
+			img {
+			float: right;
+				display: block;
+				margin-top: 7px;
+				box-sizing: border-box;
+
+			}
+		
+		
+		
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+}
